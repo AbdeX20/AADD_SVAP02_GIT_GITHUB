@@ -7,6 +7,8 @@ public class Programa
     public static void main(String[] args) throws Exception
     {
         //System.out.println("Empezamos a usar Repositorios de Código…");
-        System.out.print(MessageManager.SALUDO);
+        System.out.println(MessageManager.SALUDO);
+        System.out.print(MessageManager.metodoUsuario());
+
     }
 }
