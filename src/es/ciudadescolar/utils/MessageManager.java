@@ -6,7 +6,7 @@ public class MessageManager
 
     public static String metodoUsuario()
     {
-        String usuario = System.getProperty("user.name");
+        String usuario = System.getProperty("user.name").toLowerCase();
         return usuario;
     }
 }
